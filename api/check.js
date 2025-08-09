@@ -3,7 +3,7 @@ import { getStatus, setStatus } from '../utils/statusStore.js';
 import axios from 'axios';
 
 export default async function handler(req, res) {
-  const targetURL = "https://defour.nasikfc.my.id";
+  const targetURL = "https://api.siputzx.my.id";
   const currentStatus = getStatus();
 
   try {
