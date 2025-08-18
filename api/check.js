@@ -3,7 +3,7 @@ import { getStatus, setStatus } from '../utils/statusStore.js';
 import axios from 'axios';
 
 export default async function handler(req, res) {
-  const targetURL = "https://api.siputzx.my.id";
+  const targetURL = "https://api.siputzx.my.id/api/currency/rates";
   const currentStatus = getStatus();
 
   try {
