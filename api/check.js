@@ -4,7 +4,7 @@ import { getStatus, setStatus } from '../utils/statusStore.js';
 import axios from 'axios';
 
 export default async function handler(req, res) {
-  const targetURL = "https://fmcstore.web.id";
+  const targetURL = "https://ai.fmcstore.web.id";
   const currentStatus = getStatus();
 
   const now = new Date();
